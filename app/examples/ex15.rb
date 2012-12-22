@@ -18,3 +18,6 @@ file_again = STDIN.gets.chomp()
 txt_again = File.open(file_again)
 
 puts txt_again.read()
+
+txt.close()
+txt_again.close()
